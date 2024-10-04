@@ -18,7 +18,7 @@ function Hero() {
                         {HERO_CONTENT}
                     </p>
                 </div>
-                <img className="w-full lg:w-1/2 lg:px-20" src={dp} alt="" />
+                <img className="w-full lg:w-1/2 lg:px-20" src={dp} alt="profile Picture" />
             </div>
         </div>
     )
