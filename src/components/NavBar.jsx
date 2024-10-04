@@ -9,9 +9,9 @@ function NavBar() {
 
 
     return (
-        <nav className=" mb-20 flex justify-between py-6 px-5">
+        <nav className="mb-20 flex justify-between py-6 px-5">
             <div className="flex flex-shrink-0 items-center">
-                <img src={logo} alt="logo" />
+                <img className='mx-2 w-12' src={logo} alt="logo" />
             </div>
             <div className='flex justify-center gap-2 text-3xl'>
                 <FaGithub />
