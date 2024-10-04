@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar"
+import Test from "./components/Test"
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
 
       <div className="container mx-auto px-8">
         <NavBar />
+
+        <Test />
       </div>
 
     </div>
