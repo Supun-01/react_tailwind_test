@@ -9,6 +9,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const HERO_POSITION = "Full-Stack Developer"
 
+// Accounts
+export const GitHubLink = "https://github.com/Supun-01"
+export const LinkedInLink = "https://www.linkedin.com/in/supun-tharaka-1a9273299/"
+export const FacebookLink = "https://www.facebook.com/supun.tharaka.735944/"
+
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
