@@ -14,11 +14,11 @@ function Hero() {
                     from-purple-400 via-white to-cyan-300 bg-clip-text text-transparent text-4xl">
                         {HERO_POSITION}
                     </span>
-                    <p className="my-2 max-w-xl font-light text-justify tracking-tighter">
+                    <p className=" my-2 max-w-xl font-light text-justify tracking-tighter">
                         {HERO_CONTENT}
                     </p>
                 </div>
-                <img className=" w-full lg:w-1/2 lg:px-20" src={dp} alt="profile Picture" />
+                <img className="rounded-2xl w-full lg:w-1/2 lg:px-20 md:rounded-2xl" src={dp} alt="profile Picture" />
             </div>
         </div>
     )

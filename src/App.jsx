@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar"
 import Test from "./components/Test"
 import Hero from "./components/Hero"
 import AboutMe from "./components/AboutMe"
+import Technologies from "./components/Technologies"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <NavBar />
         <Hero />
         <AboutMe />
+        <Technologies />
       </div>
     </div>
   );
