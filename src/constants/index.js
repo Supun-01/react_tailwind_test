@@ -13,6 +13,8 @@ export const HERO_POSITION = "Full-Stack Developer"
 export const GitHubLink = "https://github.com/Supun-01"
 export const LinkedInLink = "https://www.linkedin.com/in/supun-tharaka-1a9273299/"
 export const FacebookLink = "https://www.facebook.com/supun.tharaka.735944/"
+export const WhatsAppLink = "https://wa.me/qr/U4CJD335NXBJP1"
+
 
 export const EXPERIENCES = [
   {
