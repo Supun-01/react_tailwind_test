@@ -4,6 +4,8 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 
 
 function Technologies() {
@@ -29,6 +31,9 @@ function Technologies() {
                     <SiExpress className="text-6xl text-white" />
                 </div>
 
+                <div className="rounded-2xl border-purple-700 border-4 p-3">
+                    <FaNodeJs className="text-6xl text-green-400" />
+                </div>
 
                 <div className="rounded-2xl border-purple-700 border-4 p-3">
                     <RiTailwindCssFill className="text-6xl text-blue-400" />
@@ -36,6 +41,10 @@ function Technologies() {
 
                 <div className="rounded-2xl border-purple-700 border-4 p-3">
                     <FaHtml5 className="text-6xl text-orange-600" />
+                </div>
+
+                <div className="rounded-2xl border-purple-700 border-4 p-3">
+                    <FaBootstrap className="text-6xl text-purple-500" />
                 </div>
 
             </div>
