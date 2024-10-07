@@ -6,6 +6,7 @@ import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 function Technologies() {
@@ -15,9 +16,17 @@ function Technologies() {
 
             <div className="flex flex-wrap items-center justify-center gap-4">
 
-                <div className="rounded-2xl border-purple-700 border-4 p-3">
+                <motion.div
+                    animate={{ y: [0, -2, 0, 2, 0] }}
+                    transition={{
+                        duration: 1.5,
+                        repeat: Infinity,
+                        repeatType: "loop",
+                        delay: 0
+                    }}
+                    className="rounded-2xl border-purple-700 border-4 p-3">
                     <RiReactjsLine className="text-6xl text-cyan-400" />
-                </div>
+                </motion.div>
 
                 <div className="rounded-2xl border-purple-700 border-4 p-3">
                     <FaJs className="text-6xl text-yellow-400" />
